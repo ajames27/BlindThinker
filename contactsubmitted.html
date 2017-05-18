@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>BlindThinker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Basic" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="dist/css/normalize.css">
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="dist/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="dist/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="dist/favicons/favicon-16x16.png">
+    <link rel="manifest" href="dist/favicons/manifest.json">
+    <link rel="mask-icon" href="dist/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+<!-- Menu -->
+    <h1 id="menubar">
+        <a href="./index.html" id="boldlogo">Blind</a>
+        <a href="./index.html" id="normallogo">Thinker</a>
+    </h1>
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                    
+                <div id="form-wrapper">
+                    <h1 id="contact-header">Your message has been sent!</h1>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Javascript -->
+    <script src="dist/js/jquery.js"></script>
+    <script src="dist/js/swiper.jquery.min.js"></script>
+    <script src="dist/js/formvalidator.js"></script>
+    
+    
+
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationType: 'progress',
+        paginationClickable: true,
+        keyboardControl: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30,
+        effect: 'fade'
+    });
+    </script>
+</body>
+</html>
